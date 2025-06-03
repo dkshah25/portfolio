@@ -124,9 +124,24 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
   font-weight: 500;
-  flex: 1 1 200px;
-  max-width: 220px;
+  flex: 1 1 100%;
+  max-width: 100%;
 }
+
+@media (min-width: 500px) {
+  .grid-list li {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-list li {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+}
+
 
 .project-grid {
   display: flex;

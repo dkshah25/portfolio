@@ -87,3 +87,24 @@ button:hover {
   transform: scale(1.08);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
 }
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tech-stack span {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.tech-stack span:hover {
+  transform: scale(1.05);
+  background-color: #e0f0ff;
+}
